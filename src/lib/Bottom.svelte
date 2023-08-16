@@ -6,10 +6,6 @@
     <section class="social">
         <!-- <img src={meganegura} alt="meganegura" /> -->
         <!-- <img src={inapression} alt="Inapression" /> -->
-        <div>
-            <p>@artesgo</p>
-            <p>u/artesre</p>
-        </div>
     </section>
     <section class="tools">
         <em>
@@ -33,7 +29,7 @@
 
     .guuuuraaaa {
         position: absolute;
-        bottom: -10px;
+        bottom: -20px;
         left: 1000px;
     }
 
@@ -57,7 +53,7 @@
         border-radius: 20px;
         border-left: 2px solid #aaa;
         border-bottom: 2px solid #aaa;
-        top: -20px;
+        top: -80px;
         left: 1500px;
         transform: rotate(-5deg);
     }

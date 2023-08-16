@@ -15,8 +15,8 @@
 <style>
 	main {
 		display: grid;
-		grid-template-columns: 40px 340px 20px 1fr 40px;
-		grid-template-rows: 65px 1fr 165px;
+		grid-template-columns: 10px 340px 20px 1fr 10px;
+		grid-template-rows: 50px 1fr 80px;
 		height: 100vh;
 		overflow: hidden;
     background: #333;
