@@ -1,14 +1,12 @@
 <script lang="ts">
   import './app.scss';
 
-	import { Bottom, Top, Left, Right } from '$lib';
+	import { Bottom, Top } from '$lib';
 </script>
 
 <main>
 	<div class="top"><Top /></div>
-	<div class="left"><Left /></div>
 	<div class="content"></div>
-	<div class="right"><Right /></div>
 	<div class="bottom"><Bottom /></div>
 </main>
 
@@ -29,17 +27,13 @@
 	}
 
 	.content {
-		background: #00ff11;
+		background: #00ff00;
 		border-radius: 24px;
     box-shadow: inset 0px 0px 8px #333;
-		grid-column-start: 4;
+		grid-column-start: 2;
 		grid-column-end: 5;
 	}
 
-	.left {
-		grid-column-start: 2;
-		grid-column-end: 3;
-	}
 	.bottom {
 		grid-column-start: 1;
 		grid-column-end: 5;

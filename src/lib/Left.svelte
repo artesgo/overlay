@@ -2,7 +2,7 @@
 
 <style>
     div {
-        background: #00ff11;
+        background: #00ff00;
         border-radius: 24px;
         box-shadow: inset 0px 0px 8px #333;
         height: 100%;
